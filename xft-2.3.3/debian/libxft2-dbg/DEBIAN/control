@@ -1,0 +1,25 @@
+Package: libxft2-dbg
+Source: xft
+Version: 2.3.2-1
+Architecture: amd64
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Installed-Size: 317
+Depends: libxft2 (= 2.3.2-1)
+Section: debug
+Priority: extra
+Multi-Arch: same
+Description: FreeType-based font drawing library for X (unstripped)
+ Xft provides a client-side font API for X applications, making the FreeType
+ font rasterizer available to X clients.  Fontconfig is used for font
+ specification resolution.  Where available, the RENDER extension handles
+ glyph drawing; otherwise, the core X protocol is used.
+ .
+ This package provides an unstripped shared object with debugging symbols,
+ useful to provide a backtrace with symbol names in a debugger; this
+ facilitates interpretation of core dumps, and aids in finding logic errors in
+ programs using this library (or the library itself).  The library is
+ installed in /usr/lib/debug and can be used by placing that directory in the
+ LD_LIBRARY_PATH environment variable when the code to be debugged is
+ executed.  Non-programmers will likely have little use for this package, and
+ should use libxft2 instead.
+Build-Ids: e132317e2a072a188ab075a33ead77292ba1930b

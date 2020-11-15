@@ -1,0 +1,39 @@
+Format: 1.8
+Date: Sun, 13 Jul 2014 10:49:43 +0200
+Source: xft
+Binary: libxft-dev libxft2 libxft2-dbg libxft2-udeb
+Architecture: amd64
+Version: 2.3.2-1
+Distribution: unstable
+Urgency: medium
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Changed-By: Julien Cristau <jcristau@debian.org>
+Description:
+ libxft-dev - FreeType-based font drawing library for X (development files)
+ libxft2    - FreeType-based font drawing library for X
+ libxft2-dbg - FreeType-based font drawing library for X (unstripped)
+ libxft2-udeb - FreeType-based font drawing library for X (udeb)
+Changes:
+ xft (2.3.2-1) unstable; urgency=medium
+ .
+   * New upstream release.
+   * Rewrite debian/rules using dh, bump compat level to 9, drop xsfbs.
+Checksums-Sha1:
+ 4d76a5f31f0b461b49b55d12097eec671fee4750 59000 libxft-dev_2.3.2-1_amd64.deb
+ c99051db804625717ce00e3386c6fa099061c388 292592 libxft2-dbg_2.3.2-1_amd64.deb
+ 88327b2fccde453859d8ba90ae323c6d601080fc 37568 libxft2-udeb_2.3.2-1_amd64.udeb
+ 29095ea0d98ea2b218f22dd648b033bb3587ba67 47516 libxft2_2.3.2-1_amd64.deb
+ 2204da5f7c47958329614cc129eb3f0897052fa8 7669 xft_2.3.2-1_amd64.buildinfo
+Checksums-Sha256:
+ b51686fa8a7de85961b129accc9b3f0951785a3f018117cb5d11f1893ea3d75f 59000 libxft-dev_2.3.2-1_amd64.deb
+ 99a1226a00ffd8141322927fe5d39ec2954f0ac4926d4d9d8627f14d266c890c 292592 libxft2-dbg_2.3.2-1_amd64.deb
+ a5f30629a9400916dd6a5961f4d644e2984f92a6539e02b00408ff224b50eb24 37568 libxft2-udeb_2.3.2-1_amd64.udeb
+ 6c7de7a2b0962f4c08fe9a6c91574a6dd089b532a01584510a9903258e512ab7 47516 libxft2_2.3.2-1_amd64.deb
+ a8dc366fa06d45847c09b92d8d0aff0557eec17a9c7380dcec06eec6ae804b4d 7669 xft_2.3.2-1_amd64.buildinfo
+Files:
+ 7ea876e9d77d24f9ba7ad161bf0297bf 59000 libdevel optional libxft-dev_2.3.2-1_amd64.deb
+ af28e52c5c0257da71c50643b371e361 292592 debug extra libxft2-dbg_2.3.2-1_amd64.deb
+ 01a230145add031edd257d4f63d8e57e 37568 debian-installer optional libxft2-udeb_2.3.2-1_amd64.udeb
+ 38b476cfc4a2161db4f51c94d063ff6e 47516 libs optional libxft2_2.3.2-1_amd64.deb
+ 0d0fc9b0af87592e3b79890c59a8254b 7669 devel optional xft_2.3.2-1_amd64.buildinfo
+Package-Type: udeb
