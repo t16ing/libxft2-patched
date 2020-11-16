@@ -150,7 +150,7 @@ DATA = $(libman_DATA)
 am__tagged_files = $(HEADERS) $(SOURCES) $(TAGS_FILES) $(LISP)
 am__DIST_COMMON = $(srcdir)/Makefile.in
 DISTFILES = $(DIST_COMMON) $(DIST_SOURCES) $(TEXINFOS) $(EXTRA_DIST)
-ACLOCAL = ${SHELL} /home/leoda/install/03-customization/xft-emoji-fix/xft-2.3.3/missing aclocal-1.16
+ACLOCAL = ${SHELL} /home/leoda/install/03-customization/libxft2-patched/xft-2.3.3/missing aclocal-1.16
 ADMIN_MAN_DIR = $(mandir)/man$(ADMIN_MAN_SUFFIX)
 ADMIN_MAN_SUFFIX = 8
 AMTAR = $${TAR-tar}
@@ -158,14 +158,14 @@ AM_DEFAULT_VERBOSITY = 1
 APP_MAN_DIR = $(mandir)/man$(APP_MAN_SUFFIX)
 APP_MAN_SUFFIX = 1
 AR = ar
-AUTOCONF = ${SHELL} /home/leoda/install/03-customization/xft-emoji-fix/xft-2.3.3/missing autoconf
-AUTOHEADER = ${SHELL} /home/leoda/install/03-customization/xft-emoji-fix/xft-2.3.3/missing autoheader
-AUTOMAKE = ${SHELL} /home/leoda/install/03-customization/xft-emoji-fix/xft-2.3.3/missing automake-1.16
+AUTOCONF = ${SHELL} /home/leoda/install/03-customization/libxft2-patched/xft-2.3.3/missing autoconf
+AUTOHEADER = ${SHELL} /home/leoda/install/03-customization/libxft2-patched/xft-2.3.3/missing autoheader
+AUTOMAKE = ${SHELL} /home/leoda/install/03-customization/libxft2-patched/xft-2.3.3/missing automake-1.16
 AWK = gawk
 BASE_CFLAGS =  -Wall -Wpointer-arith -Wmissing-declarations -Wformat=2 -Wstrict-prototypes -Wmissing-prototypes -Wnested-externs -Wbad-function-cast -Wold-style-definition -Wdeclaration-after-statement -Wunused -Wuninitialized -Wshadow -Wmissing-noreturn -Wmissing-format-attribute -Wredundant-decls -Wlogical-op -Werror=implicit -Werror=nonnull -Werror=init-self -Werror=main -Werror=missing-braces -Werror=sequence-point -Werror=return-type -Werror=trigraphs -Werror=array-bounds -Werror=write-strings -Werror=address -Werror=int-to-pointer-cast -Werror=pointer-to-int-cast
 CC = gcc
 CCDEPMODE = depmode=none
-CFLAGS = -g -O2 -fdebug-prefix-map=/home/leoda/install/03-customization/xft-emoji-fix/xft-2.3.3=. -fstack-protector-strong -Wformat -Werror=format-security
+CFLAGS = -g -O2 -fdebug-prefix-map=/home/leoda/install/03-customization/libxft2-patched/xft-2.3.3=. -fstack-protector-strong -Wformat -Werror=format-security
 CHANGELOG_CMD = (GIT_DIR=$(top_srcdir)/.git git log > $(top_srcdir)/.changelog.tmp && mv $(top_srcdir)/.changelog.tmp $(top_srcdir)/ChangeLog) || (rm -f $(top_srcdir)/.changelog.tmp; touch $(top_srcdir)/ChangeLog; echo 'git directory not found: installing possibly empty changelog.' >&2)
 CPP = gcc -E
 CPPFLAGS = -Wdate-time -D_FORTIFY_SOURCE=2
@@ -208,7 +208,7 @@ LIPO =
 LN_S = ln -s
 LTLIBOBJS = 
 LT_SYS_LIBRARY_PATH = 
-MAKEINFO = ${SHELL} /home/leoda/install/03-customization/xft-emoji-fix/xft-2.3.3/missing makeinfo
+MAKEINFO = ${SHELL} /home/leoda/install/03-customization/libxft2-patched/xft-2.3.3/missing makeinfo
 MANIFEST_TOOL = :
 MAN_SUBSTS = 	-e 's|__vendorversion__|"$(PACKAGE_STRING)" "$(XORG_MAN_PAGE)"|' 	-e 's|__xorgversion__|"$(PACKAGE_STRING)" "$(XORG_MAN_PAGE)"|' 	-e 's|__xservername__|Xorg|g' 	-e 's|__xconfigfile__|xorg.conf|g' 	-e 's|__projectroot__|$(prefix)|g' 	-e 's|__apploaddir__|$(appdefaultdir)|g' 	-e 's|__appmansuffix__|$(APP_MAN_SUFFIX)|g' 	-e 's|__drivermansuffix__|$(DRIVER_MAN_SUFFIX)|g' 	-e 's|__adminmansuffix__|$(ADMIN_MAN_SUFFIX)|g' 	-e 's|__libmansuffix__|$(LIB_MAN_SUFFIX)|g' 	-e 's|__miscmansuffix__|$(MISC_MAN_SUFFIX)|g' 	-e 's|__filemansuffix__|$(FILE_MAN_SUFFIX)|g'
 MISC_MAN_DIR = $(mandir)/man$(MISC_MAN_SUFFIX)
@@ -221,12 +221,12 @@ OBJEXT = o
 OTOOL = 
 OTOOL64 = 
 PACKAGE = libXft
-PACKAGE_BUGREPORT = https://bugs.freedesktop.org/enter_bug.cgi?product=xorg
+PACKAGE_BUGREPORT = https://gitlab.freedesktop.org/xorg/lib/libXft/issues
 PACKAGE_NAME = libXft
-PACKAGE_STRING = libXft 2.3.2
+PACKAGE_STRING = libXft 2.3.3
 PACKAGE_TARNAME = libXft
 PACKAGE_URL = 
-PACKAGE_VERSION = 2.3.2
+PACKAGE_VERSION = 2.3.3
 PATH_SEPARATOR = :
 PKG_CONFIG = /usr/bin/pkg-config
 PKG_CONFIG_LIBDIR = 
@@ -237,15 +237,15 @@ SET_MAKE =
 SHELL = /bin/bash
 STRICT_CFLAGS =  -pedantic -Werror -Werror=attributes
 STRIP = strip
-VERSION = 2.3.2
-XFT_LT_VERSION = 2:3:2
+VERSION = 2.3.3
+XFT_LT_VERSION = 2:3:3
 XORG_MAN_PAGE = X Version 11
 XRENDER_CFLAGS = 
 XRENDER_LIBS = -lXrender -lX11
-abs_builddir = /home/leoda/install/03-customization/xft-emoji-fix/xft-2.3.3/build/man
-abs_srcdir = /home/leoda/install/03-customization/xft-emoji-fix/xft-2.3.3/build/../man
-abs_top_builddir = /home/leoda/install/03-customization/xft-emoji-fix/xft-2.3.3/build
-abs_top_srcdir = /home/leoda/install/03-customization/xft-emoji-fix/xft-2.3.3/build/..
+abs_builddir = /home/leoda/install/03-customization/libxft2-patched/xft-2.3.3/build/man
+abs_srcdir = /home/leoda/install/03-customization/libxft2-patched/xft-2.3.3/build/../man
+abs_top_builddir = /home/leoda/install/03-customization/libxft2-patched/xft-2.3.3/build
+abs_top_srcdir = /home/leoda/install/03-customization/libxft2-patched/xft-2.3.3/build/..
 ac_ct_AR = ar
 ac_ct_CC = gcc
 ac_ct_DUMPBIN = 
@@ -274,7 +274,7 @@ host_vendor = pc
 htmldir = ${docdir}
 includedir = ${prefix}/include
 infodir = ${prefix}/share/info
-install_sh = ${SHELL} /home/leoda/install/03-customization/xft-emoji-fix/xft-2.3.3/install-sh
+install_sh = ${SHELL} /home/leoda/install/03-customization/libxft2-patched/xft-2.3.3/install-sh
 libdir = ${prefix}/lib/x86_64-linux-gnu
 libexecdir = ${prefix}/lib/x86_64-linux-gnu
 localedir = ${datarootdir}/locale

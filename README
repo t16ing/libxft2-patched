@@ -1,14 +1,15 @@
 How to patch libxft2 to fix emoji color crash issue:
 
 ```
-apt-get source libxft2
-mv xft-2.3.2 xft-2.3.3
+git clone https://gitlab.freedesktop.org/xorg/lib/libxft.git
+cd libxft ; git checkout libXft-2.3.3 ; cd..
+mv libxft xft-2.3.3
 wget https://www.schauenburg.nl/files/2020/11/11_st_xft_and_ubuntu/modified_for_ubuntu_20.04.1.patch
 patch -p0 < modified_for_ubuntu_20.04.1.patch
 sudo apt install devscripts
 sudo apt install quilt
 sudo apt install xutils-dev
+cd xft-2.3.3
 debuild -b -uc -us
-sudo dpkg -i libxft2_2.3.2-1_amd64.deb
-sudo apt remove libxft-dev
+sudo dpkg -i libxft2_2.3.3-1local_amd64.deb
 ```

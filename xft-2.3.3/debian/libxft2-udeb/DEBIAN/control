@@ -1,6 +1,6 @@
 Package: libxft2-udeb
 Source: xft
-Version: 2.3.2-1
+Version: 2.3.3-1local
 Architecture: amd64
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
 Installed-Size: 105

@@ -2,25 +2,25 @@ Format: 1.0
 Source: xft
 Binary: libxft2 libxft2-udeb libxft2-dbg libxft-dev
 Architecture: amd64
-Version: 2.3.2-1
+Version: 2.3.3-1local
 Checksums-Md5:
- 7ea876e9d77d24f9ba7ad161bf0297bf 59000 libxft-dev_2.3.2-1_amd64.deb
- af28e52c5c0257da71c50643b371e361 292592 libxft2-dbg_2.3.2-1_amd64.deb
- 01a230145add031edd257d4f63d8e57e 37568 libxft2-udeb_2.3.2-1_amd64.udeb
- 38b476cfc4a2161db4f51c94d063ff6e 47516 libxft2_2.3.2-1_amd64.deb
+ 9422bc78cdc6bb51349e6a94c2c92092 59192 libxft-dev_2.3.3-1local_amd64.deb
+ 70de0c392dd1ca961e2fa9520c557bb6 292764 libxft2-dbg_2.3.3-1local_amd64.deb
+ 1ab7208800d30eb1dd45153489df760a 37700 libxft2-udeb_2.3.3-1local_amd64.udeb
+ 604f1fd0f0518af914654b7465077c20 47656 libxft2_2.3.3-1local_amd64.deb
 Checksums-Sha1:
- 4d76a5f31f0b461b49b55d12097eec671fee4750 59000 libxft-dev_2.3.2-1_amd64.deb
- c99051db804625717ce00e3386c6fa099061c388 292592 libxft2-dbg_2.3.2-1_amd64.deb
- 88327b2fccde453859d8ba90ae323c6d601080fc 37568 libxft2-udeb_2.3.2-1_amd64.udeb
- 29095ea0d98ea2b218f22dd648b033bb3587ba67 47516 libxft2_2.3.2-1_amd64.deb
+ 5d7513e324d193f512c80bd4c803a39d565ffb97 59192 libxft-dev_2.3.3-1local_amd64.deb
+ ca218a3edf4cdf7a21b80eea27175f4f341d27b4 292764 libxft2-dbg_2.3.3-1local_amd64.deb
+ 13c730a6b9f6f787c5e52e3fac84e244d9d7febd 37700 libxft2-udeb_2.3.3-1local_amd64.udeb
+ a60dcb699e713ed0f8ef9749598c4f8031bb8908 47656 libxft2_2.3.3-1local_amd64.deb
 Checksums-Sha256:
- b51686fa8a7de85961b129accc9b3f0951785a3f018117cb5d11f1893ea3d75f 59000 libxft-dev_2.3.2-1_amd64.deb
- 99a1226a00ffd8141322927fe5d39ec2954f0ac4926d4d9d8627f14d266c890c 292592 libxft2-dbg_2.3.2-1_amd64.deb
- a5f30629a9400916dd6a5961f4d644e2984f92a6539e02b00408ff224b50eb24 37568 libxft2-udeb_2.3.2-1_amd64.udeb
- 6c7de7a2b0962f4c08fe9a6c91574a6dd089b532a01584510a9903258e512ab7 47516 libxft2_2.3.2-1_amd64.deb
+ e587e4642744093c3a28384a9797ca43f258596aee63218540ca06e4b6f53038 59192 libxft-dev_2.3.3-1local_amd64.deb
+ 03aa9411a3c39db3961d63eeeeb3308711fc31316b40af9952283adab949dc75 292764 libxft2-dbg_2.3.3-1local_amd64.deb
+ d4dee787f474cf0c060341afc1b837bb93b5cad64131fbffbfefa94aec704e9b 37700 libxft2-udeb_2.3.3-1local_amd64.udeb
+ 134abf659d869f8d5a814671486a76632504abe5b6d116726d184b1df722c246 47656 libxft2_2.3.3-1local_amd64.deb
 Build-Origin: Ubuntu
 Build-Architecture: amd64
-Build-Date: Mon, 16 Nov 2020 01:56:08 +0800
+Build-Date: Mon, 16 Nov 2020 22:40:21 +0800
 Build-Tainted-By:
  usr-local-has-libraries
  usr-local-has-programs
@@ -229,4 +229,4 @@ Environment:
  LC_PAPER="en_US.UTF-8"
  LC_TELEPHONE="en_US.UTF-8"
  LC_TIME="en_US.UTF-8"
- SOURCE_DATE_EPOCH="1405241383"
+ SOURCE_DATE_EPOCH="1605537463"

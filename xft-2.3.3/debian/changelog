@@ -1,3 +1,10 @@
+xft (2.3.3-1local) unstable; urgency=medium
+
+  * Use https://gitlab.freedesktop.org/xorg/lib/libxft.git tag libXft-2.3.3
+  * Fix color emoji crash issue.
+
+ -- tarlety <tarlety@gmail.com>  Mon, 16 Nov 2020 22:37:43 +0800
+
 xft (2.3.2-1) unstable; urgency=medium
 
   * New upstream release.

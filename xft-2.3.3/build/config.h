@@ -38,13 +38,13 @@
 #define PACKAGE "libXft"
 
 /* Define to the address where bug reports for this package should be sent. */
-#define PACKAGE_BUGREPORT "https://bugs.freedesktop.org/enter_bug.cgi?product=xorg"
+#define PACKAGE_BUGREPORT "https://gitlab.freedesktop.org/xorg/lib/libXft/issues"
 
 /* Define to the full name of this package. */
 #define PACKAGE_NAME "libXft"
 
 /* Define to the full name and version of this package. */
-#define PACKAGE_STRING "libXft 2.3.2"
+#define PACKAGE_STRING "libXft 2.3.3"
 
 /* Define to the one symbol short name of this package. */
 #define PACKAGE_TARNAME "libXft"
@@ -53,7 +53,7 @@
 #define PACKAGE_URL ""
 
 /* Define to the version of this package. */
-#define PACKAGE_VERSION "2.3.2"
+#define PACKAGE_VERSION "2.3.3"
 
 /* Major version of this package */
 #define PACKAGE_VERSION_MAJOR 2
@@ -62,13 +62,13 @@
 #define PACKAGE_VERSION_MINOR 3
 
 /* Patch version of this package */
-#define PACKAGE_VERSION_PATCHLEVEL 2
+#define PACKAGE_VERSION_PATCHLEVEL 3
 
 /* Define to 1 if you have the ANSI C header files. */
 #define STDC_HEADERS 1
 
 /* Version number of package */
-#define VERSION "2.3.2"
+#define VERSION "2.3.3"
 
 /* Major version of Xft */
 #define XFT_MAJOR 2
@@ -77,4 +77,4 @@
 #define XFT_MINOR 3
 
 /* Micro revision of Xft */
-#define XFT_REVISION 2
+#define XFT_REVISION 3

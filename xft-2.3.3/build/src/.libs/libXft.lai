@@ -8,7 +8,7 @@
 dlname='libXft.so.2'
 
 # Names of this library.
-library_names='libXft.so.2.3.2 libXft.so.2 libXft.so'
+library_names='libXft.so.2.3.3 libXft.so.2 libXft.so'
 
 # The name of the static archive.
 old_library='libXft.a'
@@ -25,7 +25,7 @@ weak_library_names=''
 # Version information for libXft.
 current=5
 age=3
-revision=2
+revision=3
 
 # Is this an already installed library?
 installed=yes

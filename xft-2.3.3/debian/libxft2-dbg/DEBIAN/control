@@ -1,10 +1,10 @@
 Package: libxft2-dbg
 Source: xft
-Version: 2.3.2-1
+Version: 2.3.3-1local
 Architecture: amd64
 Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
-Installed-Size: 317
-Depends: libxft2 (= 2.3.2-1)
+Installed-Size: 319
+Depends: libxft2 (= 2.3.3-1local)
 Section: debug
 Priority: extra
 Multi-Arch: same
@@ -22,4 +22,4 @@ Description: FreeType-based font drawing library for X (unstripped)
  LD_LIBRARY_PATH environment variable when the code to be debugged is
  executed.  Non-programmers will likely have little use for this package, and
  should use libxft2 instead.
-Build-Ids: e132317e2a072a188ab075a33ead77292ba1930b
+Build-Ids: 2bc50691e74e369bb3a7fed76c650f2b4c64262c

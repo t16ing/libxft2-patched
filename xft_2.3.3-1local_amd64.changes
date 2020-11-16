@@ -1,0 +1,39 @@
+Format: 1.8
+Date: Mon, 16 Nov 2020 22:37:43 +0800
+Source: xft
+Binary: libxft-dev libxft2 libxft2-dbg libxft2-udeb
+Architecture: amd64
+Version: 2.3.3-1local
+Distribution: unstable
+Urgency: medium
+Maintainer: Debian X Strike Force <debian-x@lists.debian.org>
+Changed-By: tarlety <tarlety@gmail.com>
+Description:
+ libxft-dev - FreeType-based font drawing library for X (development files)
+ libxft2    - FreeType-based font drawing library for X
+ libxft2-dbg - FreeType-based font drawing library for X (unstripped)
+ libxft2-udeb - FreeType-based font drawing library for X (udeb)
+Changes:
+ xft (2.3.3-1local) unstable; urgency=medium
+ .
+   * Use https://gitlab.freedesktop.org/xorg/lib/libxft.git tag libXft-2.3.3
+   * Fix color emoji crash issue.
+Checksums-Sha1:
+ 5d7513e324d193f512c80bd4c803a39d565ffb97 59192 libxft-dev_2.3.3-1local_amd64.deb
+ ca218a3edf4cdf7a21b80eea27175f4f341d27b4 292764 libxft2-dbg_2.3.3-1local_amd64.deb
+ 13c730a6b9f6f787c5e52e3fac84e244d9d7febd 37700 libxft2-udeb_2.3.3-1local_amd64.udeb
+ a60dcb699e713ed0f8ef9749598c4f8031bb8908 47656 libxft2_2.3.3-1local_amd64.deb
+ 6cbad704f23c0a5491fe983fe83db6038ef37469 7734 xft_2.3.3-1local_amd64.buildinfo
+Checksums-Sha256:
+ e587e4642744093c3a28384a9797ca43f258596aee63218540ca06e4b6f53038 59192 libxft-dev_2.3.3-1local_amd64.deb
+ 03aa9411a3c39db3961d63eeeeb3308711fc31316b40af9952283adab949dc75 292764 libxft2-dbg_2.3.3-1local_amd64.deb
+ d4dee787f474cf0c060341afc1b837bb93b5cad64131fbffbfefa94aec704e9b 37700 libxft2-udeb_2.3.3-1local_amd64.udeb
+ 134abf659d869f8d5a814671486a76632504abe5b6d116726d184b1df722c246 47656 libxft2_2.3.3-1local_amd64.deb
+ 5cc7920111057a855e351bf88b86dc5646b5c3728181c574091969302d8caf4b 7734 xft_2.3.3-1local_amd64.buildinfo
+Files:
+ 9422bc78cdc6bb51349e6a94c2c92092 59192 libdevel optional libxft-dev_2.3.3-1local_amd64.deb
+ 70de0c392dd1ca961e2fa9520c557bb6 292764 debug extra libxft2-dbg_2.3.3-1local_amd64.deb
+ 1ab7208800d30eb1dd45153489df760a 37700 debian-installer optional libxft2-udeb_2.3.3-1local_amd64.udeb
+ 604f1fd0f0518af914654b7465077c20 47656 libs optional libxft2_2.3.3-1local_amd64.deb
+ 211e47883a6508c1175d2dcb9feab323 7734 devel optional xft_2.3.3-1local_amd64.buildinfo
+Package-Type: udeb
