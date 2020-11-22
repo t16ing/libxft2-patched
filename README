@@ -13,3 +13,9 @@ cd xft-2.3.3
 debuild -b -uc -us
 sudo dpkg -i libxft2_2.3.3-1local_amd64.deb
 ```
+
+Install libxft2-dev
+```
+sudo apt install libfontconfig1-dev libfreetype6-dev libxrender-dev libfreetype-dev
+sudo dpkg -i libxft-dev_2.3.3-1local_amd64.deb
+```
